@@ -1,4 +1,5 @@
-//Handle duplicate in insertion() and input_tree()
+//Handle duplicate in insert_inBST()
+// user shouldn't give duplicate in input_tree()
 #include<bits/stdc++.h>
 using namespace std;
 class Bnode{
@@ -15,7 +16,7 @@ public:
 
 int frq[200]={0} ;
 Bnode* input_tree(){ 
-//if user gives duplicate value,then again take input for left and right node.
+//user should not give duplicate value for left and right node/ similar to another level node.
     Bnode* root ;
     int rt; cin>> rt;  
     if(rt==-1) root= NULL;
@@ -92,7 +93,7 @@ int main(){
     cout<<"enter Insert value: " ;
     for(int i=1; i<=10; i++){ 
         int k; cin>>k ;
-        insert_inBST(root,k);
+        insert_inBST(root,k); //handle duplicate and take input
     }
     
     cout<<endl<< "levelOrder: " ;
