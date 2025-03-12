@@ -1,0 +1,38 @@
+// https://www.hackerrank.com/contests/assignment-04-a-basic-data-structure-a-batch-05/challenges
+
+1.Sum without Leaf 
+  [You will be given a binary tree as input in level order. You need to 
+  output the sum of all node's values in that tree except the leaf nodes.]
+
+2. Leaf nodes
+  [You will be given a binary tree as input in level order. You need 
+  to print the values of leaf nodes in descending order.]
+
+3. perfect binary tree
+  [You will be given a binary tree as input in level order. You need to 
+  tell if the binary tree is perfect or not. A binary tree is called 
+  perfect if all leaf nodes are at the maximum depth of the tree, 
+  and the tree is completely filled with no gaps.]
+
+4. Level Nodes
+ [You will be given a binary tree as input in level order. Also you will 
+ be given a level 'X'. You need to print all the node's values in that 
+ level from left to right. Assume that level starts from 0.
+  If the level 'X' is not a valid level, the print "Invalid".]
+
+5. Print Outer Tree
+ [You will be given a binary tree as input in level order. You need to 
+ print the outer side of the binary tree. See the sample input output for 
+ more clarifications. 
+ You need to print from the left most leaf node to right most leaf node.
+ 
+ Sample Input 0
+10
+20 30
+40 70 -1 50
+90 110 -1 -1 80 60
+-1 -1 -1 -1 100 -1 -1 -1
+-1 -1
+Sample Output 0
+
+90 40 20 10 30 50 60 ] 
